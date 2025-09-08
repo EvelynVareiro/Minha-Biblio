@@ -46,34 +46,35 @@ O projeto permite que os usuários mantenham um registro pessoal de suas leitura
 
 
 ## 🚀 Como Executar o Projeto
- **Pré-requisitos:**
-    1. Servidor web com suporte a PHP (ex: Apache, Nginx)
-    2. PHP instalado (versão 7.4 ou superior recomendada)
-    3. MySQL ou MariaDB instalado e configurado
-    4. Navegador web moderno (Chrome, Firefox, Edge, etc.)
-    5. Ferramenta para importar banco de dados (ex: phpMyAdmin, MySQL Workbench) ou linha de comando MySQL
+**Pré-requisitos:**
+1. Servidor web com suporte a PHP (ex: Apache, Nginx)
+2. PHP instalado (versão 7.4 ou superior recomendada)
+3. MySQL ou MariaDB instalado e configurado
+4. Navegador web moderno (Chrome, Firefox, Edge, etc.)
+5. Ferramenta para importar banco de dados (ex: phpMyAdmin, MySQL Workbench) ou linha de comando MySQL
 
- **Passos para rodar localmente:**
-    1. Clone ou baixe o repositório do projeto
-    2. ```bash
-    3. git clone https://github.com/usuario/minha-biblio.git
-    4. Run
-    5. Copy code
+**Passos para rodar localmente:**
+1. Clone ou baixe o repositório do projeto
+2. ```bash
+3. git clone https://github.com/usuario/minha-biblio.git
+4. Run
+5. Copy code
 
-  **Configure o banco de dados:**
-    1. Crie um banco de dados no MySQL, por exemplo minhabiblio_db.
-    2. Importe o arquivo de estrutura do banco de dados (se fornecido, ex: database.sql):
-        - mysql -u seu_usuario -p minhabiblio_db < database.sql
+**Configure o banco de dados:**
+1. Crie um banco de dados no MySQL, por exemplo minhabiblio_db.
+2. Importe o arquivo de estrutura do banco de dados (se fornecido, ex: database.sql):
+- mysql -u seu_usuario -p minhabiblio_db < database.sql
 
-  **Configure as credenciais do banco de dados:**
-    1. Abra o arquivo de configuração do projeto (ex: config.php ou similar).
-    2. Atualize as variáveis de conexão com o banco de dados (host, usuario, senha, nome_do_banco).
+**Configure as credenciais do banco de dados:**
+1. Abra o arquivo de configuração do projeto (ex: config.php ou similar).
+2. Atualize as variáveis de conexão com o banco de dados (host, usuario, senha, nome_do_banco).
 
-  **Configure as credenciais do banco de dados:**
-    1. Coloque os arquivos do projeto na pasta raiz do servidor (ex: htdocs no XAMPP).
-    2. Certifique-se que o servidor está rodando.
+**Configure as credenciais do banco de dados:**
+1. Coloque os arquivos do projeto na pasta raiz do servidor (ex: htdocs no XAMPP).
+2. Certifique-se que o servidor está rodando.
 
-  **Acesse o sistema pelo navegador:**
-    1. Abra o navegador e acesse http://localhost/minhabiblio (ou o caminho configurado).
+**Acesse o sistema pelo navegador:**
+1. Abra o navegador e acesse http://localhost/minhabiblio (ou o caminho configurado).
 
-  **Comece a usar o MinhaBiblio**
+**Comece a usar o MinhaBiblio**
+
