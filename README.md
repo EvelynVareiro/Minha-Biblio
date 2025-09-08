@@ -55,10 +55,8 @@ O projeto permite que os usuários mantenham um registro pessoal de suas leitura
 
 **Passos para rodar localmente:**
 1. Clone ou baixe o repositório do projeto
-2. ```bash
-3. git clone https://github.com/usuario/minha-biblio.git
-4. Run
-5. Copy code
+2. ```bash git clone https://github.com/usuario/minha-biblio.git
+3. Run
 
 **Configure o banco de dados:**
 1. Crie um banco de dados no MySQL, por exemplo minhabiblio_db.
@@ -77,4 +75,5 @@ O projeto permite que os usuários mantenham um registro pessoal de suas leitura
 1. Abra o navegador e acesse http://localhost/minhabiblio (ou o caminho configurado).
 
 **Comece a usar o MinhaBiblio**
+
 
